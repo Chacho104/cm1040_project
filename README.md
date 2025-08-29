@@ -31,7 +31,7 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/your-username/internet-history.git
    cd internet-history
-````
+   ```
 
 2. **Install dependencies**
 
@@ -48,24 +48,10 @@ Follow these steps to run the project locally:
 4. **Open your browser**
    Visit: [http://localhost:8080/](http://localhost:8080/)
 
----
-
-## 📂 Project Structure
-
-```
-internet-history/
-│── .eleventy.js      # Eleventy configuration
-│── package.json      # Project metadata and scripts
-│── src/              # Source files (HTML, CSS, JS)
-│── dist/             # Generated output (after build)
-```
-
----
-
 ## 📜 Scripts
 
 * `npm start` → Runs Eleventy in development mode and starts a local server
 
 ## ✨ Author
 
-Developed by **\[Your Name]**
+Developed by **\Churchil Owino**
