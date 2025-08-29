@@ -23,7 +23,7 @@
   <div class="card-grid">
     {% for timeline in timelines %}
     <div class="card-item">
-      <img src="{{timeline.img}}" alt="Banner for {{timeline.title}} Section" />
+      <img src="{{timeline.img}}" alt="{{timeline.imgDescription}}" />
       <div class="card-title">
         <h3>{{timeline.title}}</h3>
         <span>{{timeline.period}}</span>
@@ -44,7 +44,7 @@
         <h3>{{people.title}}</h3>
         <span>{{people.period}}</span>
       </div>
-      <p>{{people.description}}</p>
+      <p class="line-clamp">{{people.description}}</p>
       <a href="{{people.href}}">Explore People</a>
     </div>
     {% endfor %}

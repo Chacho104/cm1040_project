@@ -22,18 +22,19 @@
 {% for timeline in timelines %}
 <section id="{{timeline.id}}">
   <h2>{{ timeline.title }} ({{ timeline.period }})</h2>
+  <p>{{ timeline.description }}</p>
 
   {% for event in timeline.events %}
   <div class="content">
     <div class="content-grid">
       <div>
-        <img src="{{event.img}}" alt="Banner for {{event.title}} Section" />
-        <span class="img-attribute">{{event.imgAttribute}}</span>
+        <img src="{{event.img}}" alt="{{event.imgDescription}}" />
+        <span class="img-attribute">{{ event.imgAttribute }}</span>
       </div>
       <div>
         <div class="content-title">
-          <h3>{{event.title}}</h3>
-          <span>{{event.period}}</span>
+          <h3>{{ event.title }}</h3>
+          <span>{{ event.period }}</span>
         </div>
         <div>
           <p>{{ event.description }}</p>
