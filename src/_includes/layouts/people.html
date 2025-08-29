@@ -20,14 +20,18 @@
 {% for people in people %}
 <section id="{{people.id}}">
   <h2>{{ people.title }}</h2>
+  <p>{{ people.description }}</p>
 
   {% for people in people.people %}
   <div class="content">
     <div class="content-grid">
-      <img src="{{people.img}}" alt="people.name" />
+      <div>
+         <img src="{{people.img}}" alt="people.name" />
+        <span class="img-attribute">{{ people.imgAttribute }}</span>
+      </div>
       <div>
         <div class="content-title">
-          <h3>{{people.name}}</h3>
+          <h3>{{ people.name }}</h3>
         </div>
         <div>
           <p>{{ people.profile }}</p>
