@@ -1,0 +1,106 @@
+<!-- Layout for the timeline page - extends the base layout with page intro and content specific to timeline page -->
+
+{% extends "layouts/base.html" %}
+
+<!-- Timeline page intro block -->
+{% block pageIntro %}
+<h2>From Humble Beginnings...</h2>
+<p>
+  From the
+  <strong
+    >dot-com boom in the late 1990s to today&apos;s seamless streaming, social
+    media, and AI-driven world,</strong
+  >
+  the internet has radically evolved over the last three decades. This timeline
+  section takes you through the pivotal moments of that journey, highlighting
+  the technologies and events that shaped the online world we know today.
+</p>
+{% endblock %}
+
+<!-- Timeline page content block - get data from timelines json data file and use for loop to map the data into HTML -->
+{% block content %}
+{% for timeline in timelines %}
+<section id="{{timeline.id}}">
+  <h2>{{ timeline.title }} ({{ timeline.period }})</h2>
+
+  {% for event in timeline.events %}
+  <div class="content">
+    <div class="content-grid">
+      <div>
+        <img src="{{event.img}}" alt="event.title" />
+        <span class="img-attribute">{{event.imgAttribute}}</span>
+      </div>
+      <div>
+        <div class="content-title">
+          <h4>{{event.title}}</h4>
+          <span>{{event.period}}</span>
+        </div>
+        <div>
+          <p>{{ event.description }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="content-text">
+      <p>{{ event.impact }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+<section>
+  <h2>References</h2>
+  <p>
+    Bastawrous, A., & Armstrong, M. J. (2013). Mobile health use in low- and
+    high-income countries: an overview of the peer-reviewed literature. Journal
+    of the Royal Society of Medicine, 106(4), 130–142.
+    <a href="https://doi.org/10.1177/0141076812472620"
+      >https://doi.org/10.1177/0141076812472620</a
+    >
+  </p>
+  <p>
+    Hoffman, D. L., & Novak, T. P. (1996). Marketing in hypermedia
+    computer-mediated environments: Conceptual foundations. Journal of
+    marketing, 60(3), 50-68.
+  </p>
+  <p>
+    Kroll, C. A., Lee, D., & Shams, N. (2010). The dot-com boom and bust in the
+    context of regional and sectoral changes. Industry and Innovation, 17(1),
+    49-69.
+  </p>
+  <p>
+    Mostafa, M. M., Feizollah, A., & Anuar, N. B. (2023). Fifteen years of
+    YouTube scholarly research: knowledge structure, collaborative networks, and
+    trending topics. Multimedia tools and applications, 82(8), 12423–12443.
+    <a href="https://doi.org/10.1007/s11042-022-13908-7"
+      >https://doi.org/10.1007/s11042-022-13908-7</a
+    >
+  </p>
+  <p>
+    Nakamoto, S. (2008). Bitcoin whitepaper. URL:
+    https://bitcoin.org/bitcoin.pdf-(: 17.07. 2019), 9, 15.
+  </p>
+  <p>
+    Vitak, J. (2008). Mobile internet moves into the mainstream. Pew Research
+    Center.
+    <a
+      href="https://www.pewresearch.org/internet/2008/03/25/mobile-internet-moves-into-the-mainstream"
+      >https://www.pewresearch.org/internet/2008/03/25/mobile-internet-moves-into-the-mainstream</a
+    >
+  </p>
+  <p>
+    Wallace, S., Clark, M., & White, J. (2012). 'It's on my iPhone': attitudes
+    to the use of mobile computing devices in medical education, a mixed-methods
+    study. BMJ open, 2(4), e001099.
+    <a href="https://doi.org/10.1136/bmjopen-2012-001099"
+      >https://doi.org/10.1136/bmjopen-2012-001099</a
+    >
+  </p>
+  <p>
+    History of Facebook. (2025, August 24). In Wikipedia.
+    <a href="https://en.wikipedia.org/wiki/History_of_Facebook"
+      >https://en.wikipedia.org/wiki/History_of_Facebook</a
+    >
+  </p>
+</section>
+
+{% endblock %}

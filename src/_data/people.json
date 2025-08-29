@@ -1,0 +1,128 @@
+[
+  {
+    "img": "../assets/images/pioneers.avif",
+    "id": "group-one",
+    "href": "/people#group-one",
+    "title": "Pioneers of the Early Web",
+    "period": "1995 - 2004",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+    "people": [
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Larry Page & Sergey Brin",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Jeff Bezos",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Shawn Fanning",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  },
+  {
+    "img": "../assets/images/social-and-mobile-innovators.avif",
+    "id": "group-two",
+    "href": "/people#group-two",
+    "title": "Social Media & Mobile Innovators",
+    "period": "2005 - 2014",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+    "people": [
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Mark Zuckerberg",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Steve Jobs",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Chad Hurley, Steve Chen, Jawed Karim",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Jack Dorsey",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  },
+  {
+    "img": "../assets/images/modern-shapers.jpg",
+    "id": "group-three",
+    "href": "/people#group-three",
+    "title": "Modern Shapers",
+    "period": "2015 - Present",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+    "people": [
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Satya Nadella",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Elon Musk",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Susan Wojcicki",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Tim Cook",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        "img": "../assets/images/home-banner.webp",
+        "attribute": "Image by Canva",
+        "name": "Sam Altman",
+        "profile": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "contribution": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis pariatur, ut est vero ex accusamus aspernatur eveniet incidunt dolorum odio laudantium aliquam nihil temporibus, illum odit perspiciatis, id nam? Officia?",
+        "funFact": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+  }
+]

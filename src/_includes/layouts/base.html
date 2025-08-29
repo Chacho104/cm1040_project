@@ -1,0 +1,83 @@
+<!-- Base layout for all the pages - features metadata, main/top navigation bar, page
+banner/hero sections, page intro sections, page content blocks, and the footer
+navigation -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{description}}" />
+    <title>{{ title }}</title>
+    <!-- Links for stylesheets -->
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <!-- Header element - wraps main navigation elements and banner/hero section -->
+    <header>
+      <!-- Main/top navigation -->
+      <nav class="main-nav">
+        <div class="logo">
+          <a href="/"
+            ><img
+              src="../../assets/images/cm1040-logo.png"
+              alt="Logo"
+              height="50px"
+              width="50px"
+          /></a>
+        </div>
+        <div class="nav-items">
+          <a href="/">Home</a>
+          <a href="/timeline">Timeline</a>
+          <a href="/people">People</a>
+        </div>
+      </nav>
+      <!-- Banner/hero section (background image with text overlay) -->
+      <section class="banner">
+        <div class="banner-content">
+          <h1>{{ bannerTitle}}</h1>
+          <h3>{{ bannerText }}</h3>
+        </div>
+      </section>
+    </header>
+    <!-- Body of page - has dynamic intro to page title and headline text and dynamic content -->
+    <main>
+      <section class="pageIntro">{% block pageIntro %}{% endblock %}</section>
+      <div>{% block content %}{% endblock %}</div>
+    </main>
+    <!-- Footer with footer navigation elements and copyright text -->
+    <footer>
+      <div class="footer-nav">
+        <div class="nav-group">
+          <p>Popular Links</p>
+          <div class="links">
+            <a href="/">Home</a>
+            <a href="/timeline">Timeline</a>
+            <a href="/people">People</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <p>Timeline Links</p>
+          <div class="links">
+            <a href="/timeline#era-one">Dial-Up and Dot-com Boom</a>
+            <a href="/timeline#era-two">Social Media & Mobile</a>
+            <a href="/timeline#era-three">Streaming, AI, & 5G</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <p>People Links</p>
+          <div class="links">
+            <a href="/people#group-one">Pioneers of the Early Web</a>
+            <a href="/people#group-two">Social Media & Mobile Innovators</a>
+            <a href="/people#group-three">Modern Shapers</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; USA Internet History 2025</span>
+      </div>
+    </footer>
+  </body>
+</html>

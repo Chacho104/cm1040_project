@@ -1,0 +1,53 @@
+<!-- Layout for the home page - extends the base layout with page intro and content specific to home page -->
+
+{% extends "layouts/base.html" %}
+
+<!-- Home page intro block -->
+{% block pageIntro %}
+<h2>About Project</h2>
+<p>
+  The internet now permeates almost every facet of our lives, making it
+  essential to understand its origins and evolution. This
+  <strong>CM1040 2025 Web Development Project</strong> seeks to explore and
+  celebrate the internet as a powerful tool by investigating and documenting the
+  <strong>key events and innovations, people, and cultural shifts</strong> that
+  have shaped it in the
+  <strong>United States of America from 1995 to the present.</strong>
+</p>
+{% endblock %}
+
+<!-- Home page content block - get data from timelines and people json data files and use for loop to map the data into HTML -->
+{% block content %}
+<section>
+  <h2>Timeline Highlights</h2>
+  <div class="card-grid">
+    {% for timeline in timelines %}
+    <div class="card-item">
+      <img src="{{timeline.img}}" alt="{{timeline.title}}" />
+      <div class="card-title">
+        <h4>{{timeline.title}}</h4>
+        <span>{{timeline.period}}</span>
+      </div>
+      <p class="line-clamp">{{timeline.description}}</p>
+      <a href="{{timeline.href}}">Read More</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <h2>People Highlights</h2>
+  <div class="card-grid">
+    {% for people in people %}
+    <div class="card-item">
+      <img src="{{people.img}}" alt="{{people.title}}" />
+      <div class="card-title">
+        <h4>{{people.title}}</h4>
+        <span>{{people.period}}</span>
+      </div>
+      <p>{{people.description}}</p>
+      <a href="{{people.href}}">Explore People</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
