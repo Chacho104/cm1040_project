@@ -79,6 +79,7 @@
   },
   {
     "img": "../assets/images/modern-shapers.jpg",
+    "imgDescription": "Sam Altman, Sundar Pichai, and Satya Nadella",
     "id": "group-three",
     "href": "/people#group-three",
     "title": "Modern Shapers",
@@ -119,7 +120,7 @@
       },
       {
         "img": "../assets/images/sam-altman.webp",
-        "attribute": "Image by Observer",
+        "imgAttribute": "Image by Observer",
         "name": "Sam Altman",
         "profile": "Sam Altman (born April 22, 1985, in Chicago, Illinois, USA) grew up in St. Louis, Missouri, in a Jewish family. His mother is a dermatologist, and he developed an early interest in technology after receiving his first computer at age eight. Altman attended John Burroughs School, a private high school in St. Louis, before enrolling at Stanford University to study computer science. He left Stanford after two years to pursue entrepreneurship, eventually co-founding the location-based social networking company Loopt.",
         "contribution": "Sam Altman’s leadership at OpenAI has been pivotal in bringing artificial intelligence to mainstream audiences through products like ChatGPT and GPT-4. His work has showcased AI’s potential to support creative tasks, problem-solving, and information processing, while also raising critical questions about safety and alignment. Under his direction, OpenAI has combined the pursuit of increasingly advanced AI systems with a strong emphasis on responsible governance and safety research. Through his public communication, Altman has played a key role in educating policymakers and the wider public about both the opportunities and challenges of artificial intelligence.",

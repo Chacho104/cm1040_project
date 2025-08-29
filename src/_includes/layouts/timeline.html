@@ -20,7 +20,7 @@
 <!-- Timeline page content block - get data from timelines json data file and use for loop to map the data into HTML -->
 {% block content %}
 {% for timeline in timelines %}
-<section id="{{timeline.id}}">
+<section id="{{ timeline.id }}">
   <h2>{{ timeline.title }} ({{ timeline.period }})</h2>
   <p>{{ timeline.description }}</p>
 
@@ -28,7 +28,7 @@
   <div class="content">
     <div class="content-grid">
       <div>
-        <img src="{{event.img}}" alt="{{event.imgDescription}}" />
+        <img src="{{ event.img }}" alt="{{ event.imgDescription }}" />
         <span class="img-attribute">{{ event.imgAttribute }}</span>
       </div>
       <div>

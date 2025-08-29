@@ -23,13 +23,13 @@
   <div class="card-grid">
     {% for timeline in timelines %}
     <div class="card-item">
-      <img src="{{timeline.img}}" alt="{{timeline.imgDescription}}" />
+      <img src="{{ timeline.img }}" alt="{{ timeline.imgDescription }}" />
       <div class="card-title">
-        <h3>{{timeline.title}}</h3>
-        <span>{{timeline.period}}</span>
+        <h3>{{ timeline.title }}</h3>
+        <span>{{ timeline.period }}</span>
       </div>
-      <p class="line-clamp">{{timeline.description}}</p>
-      <a href="{{timeline.href}}">Read More</a>
+      <p class="line-clamp">{{ timeline.description }}</p>
+      <a href="{{ timeline.href }}">Read More</a>
     </div>
     {% endfor %}
   </div>
@@ -37,15 +37,15 @@
 <section>
   <h2>People Highlights</h2>
   <div class="card-grid">
-    {% for people in people %}
+    {% for group in people %}
     <div class="card-item">
-      <img src="{{people.img}}" alt="Banner for {{people.title}} Section" />
+      <img src="{{ group.img }}" alt="{{ group.imgDescription }}" />
       <div class="card-title">
-        <h3>{{people.title}}</h3>
-        <span>{{people.period}}</span>
+        <h3>{{ group.title }}</h3>
+        <span>{{ group.period }}</span>
       </div>
-      <p class="line-clamp">{{people.description}}</p>
-      <a href="{{people.href}}">Explore People</a>
+      <p class="line-clamp">{{ group.description }}</p>
+      <a href="{{ group.href }}">Explore People</a>
     </div>
     {% endfor %}
   </div>

@@ -21,7 +21,7 @@
       {
         "img": "../assets/images/facebook-launch.webp",
         "imgAttribute": "Image by Business Insider",
-        "imgDescription": "Mark ZuckerBerg Showcasing Facebook During its Early Years",
+        "imgDescription": "Mark Zuckerberg Showcasing Facebook During its Early Years",
         "title": "The Birth of Social Media (Facebook Launch)",
         "period": "2004",
         "description": "Facebook was started at Harvard University in 2004 by Mark Zuckerberg and his college roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes with the aim of connecting classmates on campus. The platform quickly grew in popularity on campus, and soon expanded to other Ivy league universities like Yale and Stanford, and eventually opened to the public allowing anyone above age 13 to sign up using a valid email address ('History of Facebook', 2025).",
@@ -51,7 +51,7 @@
       {
         "img": "../assets/images/iphone-launch.webp",
         "imgAttribute": "Image from New York Post",
-        "imgDescription": "Steve Job Launching the iPhone in 2007",
+        "imgDescription": "Steve Jobs Launching the iPhone in 2007",
         "title": "iPhone Changes Mobile Internet Forever",
         "period": "2007",
         "description": "The introduction of the iPhone in 2007 represents one of the most significant technological breakthroughs of the modern era. By combining a phone, internet browser, media player, and application platform into a single, intuitive device, Apple redefined user expectations for mobile technology and accelerated the adoption of mobile internet services.",
@@ -99,7 +99,7 @@
       {
         "img": "../assets/images/ar.webp",
         "imgAttribute": "Image from TechCrunch",
-        "imgDescription": "A Person Using AR on Phone to Create Virtual Creature",
+        "imgDescription": "A Person Using AR on a Phone to Create Virtual Creature",
         "title": "Pokémon Go Shows Power of AR",
         "period": "2016",
         "description": "The launch of Pokémon Go in 2016 brought augmented reality technology to mainstream audiences for the first time.",
@@ -108,7 +108,7 @@
       {
         "img": "../assets/images/covid-19-effects.webp",
         "imgAttribute": "Image from Adobe Stock",
-        "imgDescription": "A Person on an Online Meeting Working from Home",
+        "imgDescription": "A Person in an Online Meeting Working from Home",
         "title": "COVID-19 Accelerates Remote Work, Video Calls, and E-commerce",
         "period": "2020",
         "description": "The COVID-19 pandemic served as a massive accelerator for digital transformation, as it forced rapid adoption of remote work technologies, video conferencing platforms, and e-commerce services. Within months, behaviors and business practices that might have taken years to evolve became essential for maintaining operations during lockdowns.",
