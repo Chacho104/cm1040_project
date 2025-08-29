@@ -17,30 +17,30 @@
 <!-- People page content block - get data from people json data file and use for loop to map the data into HTML -->
 {% block content %}
 
-{% for people in people %}
-<section id="{{people.id}}">
-  <h2>{{ people.title }}</h2>
-  <p>{{ people.description }}</p>
+{% for group in people %}
+<section id="{{ group.id }}">
+  <h2>{{ group.title }}</h2>
+  <p>{{ group.description }}</p>
 
-  {% for people in people.people %}
+  {% for person in group.people %}
   <div class="content">
     <div class="content-grid">
       <div>
-         <img src="{{people.img}}" alt="people.name" />
-        <span class="img-attribute">{{ people.imgAttribute }}</span>
+         <img src="{{ person.img }}" alt="{{ person.name }}" />
+        <span class="img-attribute">{{ person.imgAttribute }}</span>
       </div>
       <div>
         <div class="content-title">
-          <h3>{{ people.name }}</h3>
+          <h3>{{ person.name }}</h3>
         </div>
         <div>
-          <p>{{ people.profile }}</p>
+          <p>{{ person.profile }}</p>
         </div>
       </div>
     </div>
     <div class="content-text">
-      <p>{{ people.contribution }}</p>
-      <p class="fun-fact"><strong>Fun Fact:</strong> {{ people.funFact }}</p>
+      <p>{{ person.contribution }}</p>
+      <p class="fun-fact"><strong>Fun Fact:</strong> {{ person.funFact }}</p>
     </div>
   </div>
   {% endfor %}
