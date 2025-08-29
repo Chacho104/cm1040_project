@@ -1,7 +1,8 @@
 [
   {
     "img": "../assets/images/home-banner.webp",
-    "attribute": "Image by Canva",
+    "imgAttribute": "Image by Canva",
+    "imgDescription": "A Person Browsing the Internet",
     "id": "era-one",
     "href": "/timeline#era-one",
     "title": "Dot-com Boom",
@@ -11,6 +12,7 @@
       {
         "img": "../assets/images/home-banner.webp",
         "imgAttribute": "Image by Canva",
+        "imgDescription": "A Person Browsing the Internet",
         "title": "The World Goes Online",
         "period": "1995 - 2004",
         "description": "The Dot-com Boom era marked the beginning of the commercial internet age, characterized by rapid growth, speculation, and the establishment of foundational technologies that would support future digital innovations (Kroll et al., 2010). This period saw the transformation of the internet from an academic and military network into a global commercial platform that would revolutionize business, communication, and daily life. During this era, entrepreneurs and investors rushed to capitalize on the potential of the World Wide Web, leading to both spectacular successes and dramatic failures. The period was defined by the belief that traditional business models were obsolete and that internet-based companies could achieve rapid growth and profitability. While the dot-com bubble eventually burst in 2000, the technological infrastructure and digital literacy developed during this time laid the groundwork for all subsequent internet innovations.",
@@ -19,6 +21,7 @@
       {
         "img": "../assets/images/facebook-launch.webp",
         "imgAttribute": "Image by Business Insider",
+        "imgDescription": "Mark ZuckerBerg Showcasing Facebook During its Early Years",
         "title": "The Birth of Social Media (Facebook Launch)",
         "period": "2004",
         "description": "Facebook was started at Harvard University in 2004 by Mark Zuckerberg and his college roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes with the aim of connecting classmates on campus. The platform quickly grew in popularity on campus, and soon expanded to other Ivy league universities like Yale and Stanford, and eventually opened to the public allowing anyone above age 13 to sign up using a valid email address ('History of Facebook', 2025).",
@@ -28,7 +31,8 @@
   },
   {
     "img": "../assets/images/social-media.jpg",
-    "attribute": "Image by dole777 on Unsplash",
+    "imgAttribute": "Image by dole777 on Unsplash",
+    "imgDescription": "A Phone Showing Social Media Apps",
     "id": "era-two",
     "href": "/timeline#era-two",
     "title": "Social Media & Mobile",
@@ -38,6 +42,7 @@
       {
         "img": "../assets/images/youtube-2005.png",
         "imgAttribute": "Image from Web Design Museum",
+        "imgDescription": "YouTube User Interface During its Early Years",
         "title": "YouTube Launches",
         "period": "2005",
         "description": "Following the successful launch of Facebook, another social media platform, YouTube, was introduced in 2005, with an aim to revolutionize how people consume and create video content. For the first time, anyone with a camera and internet connection could broadcast to a global audience without traditional media gatekeepers.",
@@ -46,6 +51,7 @@
       {
         "img": "../assets/images/iphone-launch.webp",
         "imgAttribute": "Image from New York Post",
+        "imgDescription": "Steve Job Launching the iPhone in 2007",
         "title": "iPhone Changes Mobile Internet Forever",
         "period": "2007",
         "description": "The introduction of the iPhone in 2007 represents one of the most significant technological breakthroughs of the modern era. By combining a phone, internet browser, media player, and application platform into a single, intuitive device, Apple redefined user expectations for mobile technology and accelerated the adoption of mobile internet services.",
@@ -54,6 +60,7 @@
       {
         "img": "../assets/images/bitcoin.webp",
         "imgAttribute": "Image from Shutterstock",
+        "imgDescription": "Bitcoin Represented as the Next Gold",
         "title": "Bitcoin White Paper Released",
         "period": "2009",
         "description": "The release of Satoshi Nakamoto's Bitcoin white paper introduced the world to cryptocurrency and blockchain technology, proposing a peer-to-peer electronic cash system that operates without central authority (Nakamoto, 2008). This innovation challenged traditional financial systems and introduced new concepts of digital ownership and decentralized governance. Bitcoin's underlying blockchain technology proved to have applications far beyond cryptocurrency, introducing concepts of distributed ledgers, smart contracts, and decentralized networks that continue to influence technology development today.",
@@ -62,6 +69,7 @@
       {
         "img": "../assets/images/instagram.webp",
         "imgAttribute": "Image from TechCrunch",
+        "imgDescription": "Instagram User Interface With Log In and Home Page",
         "title": "Instagram Launches",
         "period": "2010",
         "description": "The launch of Instagram in 2010 capitalized on the convergence of smartphone adoption, improved mobile cameras, and social networking trends. By focusing specifically on photo sharing with intuitive filters and editing tools, Instagram made high-quality visual content creation accessible to everyday users. The platform emphasizes visual storytelling, hence transforming how people share experiences and how businesses engage with customers. The rapid growth of Instagram clearly shows the changing patterns of social media usage, with users increasingly preferring visual platforms over text-based networks.",
@@ -71,7 +79,8 @@
   },
   {
     "img": "../assets/images/streaming.webp",
-    "attribute": "Image by Vipas Digital Marketing",
+    "imgAttribute": "Image by Vipas Digital Marketing",
+    "imgDescription": "Streaming Sites and A Person Using VR Headsets",
     "id": "era-three",
     "href": "/timeline#era-three",
     "title": "Streaming, AI, & 5G",
@@ -81,6 +90,7 @@
       {
         "img": "../assets/images/netflix-banner.jpg",
         "imgAttribute": "Image from Adobe Stock",
+        "imgDescription": "Netflix Logo on a Black Screen",
         "title": "Netflix Streaming Dominates TV Habits",
         "period": "2015",
         "description": "By 2015, Netflix had successfully transitioned from a DVD rental service to the dominant force in streaming entertainment, fundamentally changing how people consume television and film content. The platform's success demonstrated the viability of on-demand, subscription-based content delivery and inspired numerous competitors to adopt similar models.",
@@ -89,6 +99,7 @@
       {
         "img": "../assets/images/ar.webp",
         "imgAttribute": "Image from TechCrunch",
+        "imgDescription": "A Person Using AR on Phone to Create Virtual Creature",
         "title": "Pokémon Go Shows Power of AR",
         "period": "2016",
         "description": "The launch of Pokémon Go in 2016 brought augmented reality technology to mainstream audiences for the first time.",
@@ -97,6 +108,7 @@
       {
         "img": "../assets/images/covid-19-effects.webp",
         "imgAttribute": "Image from Adobe Stock",
+        "imgDescription": "A Person on an Online Meeting Working from Home",
         "title": "COVID-19 Accelerates Remote Work, Video Calls, and E-commerce",
         "period": "2020",
         "description": "The COVID-19 pandemic served as a massive accelerator for digital transformation, as it forced rapid adoption of remote work technologies, video conferencing platforms, and e-commerce services. Within months, behaviors and business practices that might have taken years to evolve became essential for maintaining operations during lockdowns.",
@@ -105,6 +117,7 @@
       {
         "img": "../assets/images/ai-chatbot.png",
         "imgAttribute": "Illustration by Salesforce",
+        "imgDescription": "A Chatbot at Work Illustration",
         "title": "AI Chatbots Enter Mainstream",
         "period": "2023 -",
         "description": "The launch of ChatGPT and similar AI chatbots in late 2022 and throughout 2023 kick-started mainstream artificial intelligence adoption. With these conversational AI systems, capabilities that seemed almost magical to many users, became reality, as they can generate human-like text for a wide variety of tasks and queries. Users quickly discovered applications ranging from creative writing assistance to code generation, but of course, with some limitations and biases in AI responses.",
