@@ -16,6 +16,11 @@
       align-items: center;
       justify-content: space-between;
 
+      h3 {
+        font-size: x-large;
+        color: purple;
+      }
+
       span {
         font-weight: bold;
       }
